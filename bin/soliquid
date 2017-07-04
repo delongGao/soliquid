@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'soliquid'
+
+app = Soliquid::App.new
+puts app.test
